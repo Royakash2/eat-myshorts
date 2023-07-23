@@ -1,0 +1,27 @@
+.modal-container{
+    position: fixed;
+    inset: 0px;
+    /* opacity: 0.25; */
+    /* background-color: black; */
+}
+.modal-bg{
+    width: 40rem;
+    height: 32rem;
+    background-image: url('../../../assets/Images/Faq__bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.modal-content{
+    padding-top: 200px;
+    height: 350px;
+}
+
+@media (max-width: 768px){
+    .modal-bg{
+        width: 300px;
+        height: 100%;
+        background-image: url('../../../assets/Images/faq-mobile-bg.png');
+        background-size: cover;
+        background-position: center;
+    }
+}

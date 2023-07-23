@@ -1,0 +1,30 @@
+.nav-link {
+    margin: 0 10px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'EatMyShorts', sans-serif;
+    text-shadow: 0px 0px 12.6891px rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 45px;
+    transition: color 0.3s;
+    
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+
+}
+.content-text{
+    font-family: 'Cooper Black';
+}
+
+@media (max-width: 768px) {
+    .nav-link{
+        font-size: 14px;
+    }
+    .nav-container{
+        margin-left: 50px;
+        
+    }
+}

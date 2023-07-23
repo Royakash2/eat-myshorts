@@ -1,0 +1,54 @@
+import "./product.css";
+import lifeEndTen from "../../assets/Images/Life-ends-at-ten.png";
+
+const Product = () => {
+  return (
+    <div className="product__bg d-flex justify-content-center align-items-center">
+      <div className=" h-100  me-5 pt-1 product-content">
+        <div className="product-board h-100">
+          <div className="d-flex flex-column justify-content-center align-items-center pt-5 product-container">
+            <h2 className="fs-4">Life ends at ten <span className="text-success">s20</span></h2>
+            <img className="product-img img-fluid h-100" src={lifeEndTen} alt="" />
+          </div>
+          <div className="d-flex flex-column justify-content-center align-items-center ms-5 ps-5">
+            <div className="d-flex justify-content-center align-items-center mt-2 gap-1">
+              <p className="border px-2">s</p>
+              <p className="border px-2">m</p>
+              <p className="border px-2">xl</p>
+              <p className="border px-2">xxl</p>
+            </div>
+            <button className="add-to-cart-btn px-3 p-1">Add to cart</button>
+            <div className="px-5 text-center">
+              <h6 className="fw-bold">Age is just a Number!</h6>
+              <p className="product-info">This shirt is hand printed on a 100 percent cotton hanes beefy T. There is a size chart in the FAQ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Product;
+
+<div className="mt-4">
+          {/* <h4 className='text-center'>Life ends at ten <span>s20</span></h4>
+            <div className='text-center w-100 h-100'>
+            <img className='img-fluid' src={lifeEndTen} alt="" />
+            </div> */}
+          <div
+            className="card text-center mb-3 ms-5"
+            style={{ maxWidth: "18rem",height: "18rem" }}
+          >
+            <div className="card-text">
+              Life ends at ten <span>s20</span>
+            </div>
+            <img className="img-fluid" src={lifeEndTen} alt="" />
+            <button>add to cart</button>
+            <p>Age is just a Number!</p>
+            <p>
+              This shirt is hand printed on a 100 percent cotton hanes beefy T.
+              There is a size chart in the FAQ
+            </p>
+          </div>
+        </div>

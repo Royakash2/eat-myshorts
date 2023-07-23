@@ -1,0 +1,14 @@
+.t-shirt-container {
+    position: fixed;
+    top: 44px;
+    left: 400px;
+}
+
+@media (max-width: 768px) {
+    .t-shirt-container {
+        width: 44%;
+        position: fixed;
+        top: 30px;
+        left: 15px;
+    }
+}

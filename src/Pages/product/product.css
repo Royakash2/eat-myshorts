@@ -1,0 +1,57 @@
+.product__bg {
+    padding-right: 60px;
+    background-image: url('../../assets/Images/ProductPageBG.png');
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.product-board {
+    border: 1px solid;
+    max-width: 48%;
+    height: 100vh;
+    background-image: url(../../../src/assets/Images/ProductBoard-Desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'EatMyShorts', sans-serif;
+}
+
+.product-content {
+    width: 45%;
+}
+
+.product-container {
+    width: 60%;
+    margin-left: 146px;
+}
+
+.product-img {
+    width: 70%;
+}
+
+.add-to-cart-btn {
+    border-radius: 3px;
+    border: 2px solid #6C6C6C;
+    background: #9AC8FF;
+}
+
+.product-info {
+    font-size: 10px;
+}
+
+/* style for mobile device */
+@media (max-width: 768px) {
+    .product__bg {
+        height: 100vh;
+        background-image: url(../../assets/Images/ProductPageBG-mobile.png);
+        background-size: cover;
+    }
+
+    .product-board {
+        padding: 140px;
+        position: static;
+        background-image: url(../../assets/Images/MobileProduct.png);
+        background-size: 100% 100%;
+        background-position: center;
+    }
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Cooper';
+    src: url(../src/Fonts/Cooper\ Black\ Regular.woff);
+}
+
+@font-face {
+    font-family: 'EatMyShorts';
+    font-weight: 400;
+    src: url(../src/Fonts/EatMyShorts.woff);
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url(../src/Fonts/HelveticaNeue-Medium-11.woff);
+}

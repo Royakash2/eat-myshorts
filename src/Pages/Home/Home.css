@@ -1,0 +1,18 @@
+.main__screen {
+    background-image: url('../../assets/images/Hero__bg.png');
+    width: auto;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px){
+    .main__screen{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../../assets/images/Hero-bg-mobile.png');
+        
+        background-size: cover;
+        background-position: center top;
+    }
+}

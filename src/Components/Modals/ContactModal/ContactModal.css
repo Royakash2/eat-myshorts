@@ -1,0 +1,34 @@
+.modal-contact{
+    position: fixed;
+    inset: 0px;
+    /* opacity: 0.25; */
+    /* background-color: black; */
+}
+.contact-bg{
+    padding-top: 90px;
+    width: 42rem;
+    height: 28rem;
+    background-image: url('../../../../src/assets/Images/Contact-Desktop.png');
+    background-size: cover;
+    background-position: center;
+}
+/* .modal-content{
+    padding-top: 200px;
+    height: 350px;
+    font-size: small;
+} */
+
+/* .container{
+    height: 300px;
+    width: 600px;
+} */
+.text-font{
+    font-family: 'EatMyShorts', sans-serif;
+}
+.email-color{
+    color:#F19059;
+}
+
+.text-size{
+    font-size: 14px;
+}
